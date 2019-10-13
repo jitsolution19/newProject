@@ -1,0 +1,38 @@
+  link#bootstrap-css(href='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', rel='stylesheet')
+  script(src='//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+  // ---- Include the above in your HEAD tag --------
+nav.navbar.navbar-expand-sm.navbar-light.bg-light
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarTogglerDemo03', aria-controls='navbarTogglerDemo03', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  a.navbar-brand(href='#') Waris
+  #navbarTogglerDemo03.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+      li.nav-item
+        a.nav-link(href='#')
+          | Home 
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='#') Link
+      li.nav-item
+        a.nav-link(href='#') Contact us
+      li.nav-item.dropdown.dmenu
+        a#navbardrop.nav-link.dropdown-toggle(href='#', data-toggle='dropdown')
+          | Dropdown link
+        .dropdown-menu.sm-menu
+          a.dropdown-item(href='#') Link 1
+          a.dropdown-item(href='#') Link 2
+          a.dropdown-item(href='#') Link 3
+      li.nav-item.dropdown.dmenu
+        a#navbardrop.nav-link.dropdown-toggle(href='#', data-toggle='dropdown')
+          | Dropdown link
+        .dropdown-menu.sm-menu
+          a.dropdown-item(href='#') Link 1
+          a.dropdown-item(href='#') Link 2
+          a.dropdown-item(href='#') Link 3
+          a.dropdown-item(href='#') Link 4
+          a.dropdown-item(href='#') Link 5
+          a.dropdown-item(href='#') Link 6
+    form.form-inline.my-2.my-lg-0
+      input.form-control.mr-sm-2(type='search', placeholder='Search', aria-label='Search')
+      button.btn.btn-outline-default.my-2.my-sm-0(type='submit') Search

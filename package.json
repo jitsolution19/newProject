@@ -1,0 +1,23 @@
+{
+  "name": "firstweb",
+  "version": "1.0.1",
+  "description": "new website using express pug",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jitsolution19/newProject/tree/jitendra"
+  },
+  "keywords": [
+    "pug"
+  ],
+  "author": "jitendra",
+  "license": "ISC",
+  "dependencies": {
+    "http-error": "0.0.6",
+    "pug": "^2.0.4"
+  }
+}
